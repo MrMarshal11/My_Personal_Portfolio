@@ -1,3 +1,12 @@
+body {
+    background-image: linear-gradient(blue, green);
+    color: white;
+}
+
+a {
+    color: white;
+}
+
 #container {
     display: flex;
     align-items: center;
@@ -9,7 +18,7 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    border: 5px solid black;
+    border: 5px solid white;
     gap: 100px;
 }
 
@@ -18,7 +27,7 @@
     flex-flow: column;
     align-items: center;
     gap: 20px;
-    border: 2.5px solid black;
+    border: 2.5px solid white;
     padding: 20px;
     padding-bottom: 100px;
     margin: 10px;
@@ -29,7 +38,7 @@
     flex-flow: column;
     align-items: center;
     gap: 20px;
-    border: 2.5px solid black;
+    border: 2.5px solid white;
     padding: 20px;
     padding-bottom: 100px;
     margin: 10px;
@@ -40,7 +49,7 @@
     flex-flow: column;
     align-items: center;
     gap: 20px;
-    border: 2.5px solid black;
+    border: 2.5px solid white;
     padding: 20px;
     padding-bottom: 100px;
     margin: 10px;
