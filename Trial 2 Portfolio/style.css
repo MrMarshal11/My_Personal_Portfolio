@@ -18,6 +18,10 @@ img {
     filter: invert();
     width: 30px;
 }
+img:hover {
+    cursor: pointer;
+    filter: invert(100%) brightness(80%) contrast(85%);
+}
 
 body {
     background-image: linear-gradient(rgb(16, 15, 66), rgb(0, 0, 0), rgb(16, 15, 66));
@@ -90,6 +94,10 @@ body {
     width: 400px;
     height: 100px;
     background-image: radial-gradient(black, white);
+}
+.tempProject:hover {
+    cursor: pointer;
+    filter: brightness(80%) contrast(85%);
 }
 
 .projectField {
